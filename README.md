@@ -5,11 +5,12 @@
 
 ### Enunciado do Trabalho
 <div style="text-align: justify">
-**Resumo**: este primeiro trabalho consiste na criação de um backend para uma aplicação web para academias de
+
+**Resumo:** este primeiro trabalho consiste na criação de um backend para uma aplicação web para academias de
 musculação usando Node.js, Express.js e Mongoose (MongoDB). Deve ser criada uma API conforme padrão
 estabelecido no roteiro atualizado da aula de 18 de outubro de 2022, disponível em nosso grupo do Telegram.
 
-**Descrição do problema**: uma academia de musculação deseja informatizar as fichas de exercícios dos alunos. Uma
+**Descrição do problema:**: uma academia de musculação deseja informatizar as fichas de exercícios dos alunos. Uma
 ficha é composta por um conjunto de exercícios ordenados, sendo que cada exercício tem um tipo, uma carga
 (peso), um número de repetições e um número de séries. Por exemplo, um dos exercícios da ficha pode ser do tipo
 “supino”, com 30kg de peso e 3 séries de 10 repetições. Cada tipo de exercício tem um nome e trabalha um
