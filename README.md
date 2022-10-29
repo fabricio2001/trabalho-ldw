@@ -4,6 +4,7 @@
 
 
 ### Enunciado do Trabalho
+<div style="text-align: justify">
 **Resumo**: este primeiro trabalho consiste na criação de um backend para uma aplicação web para academias de
 musculação usando Node.js, Express.js e Mongoose (MongoDB). Deve ser criada uma API conforme padrão
 estabelecido no roteiro atualizado da aula de 18 de outubro de 2022, disponível em nosso grupo do Telegram.
@@ -20,3 +21,4 @@ ela tem uma data de início da vigência, um conjunto de exercícios a serem exe
 execuções. Cada execução tem uma data e hora de início e de fim e, opcionalmente, gera algumas anotações. É
 comum os alunos seguirem fichas diferentes em dias diferentes, portanto, alunos podem ter mais de uma ficha
 ativa
+</div>
