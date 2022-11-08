@@ -24,7 +24,7 @@ export const updateAluno = async (req, res, next) => {
 export const deleteAluno = async (req, res, next) => {
   try {
     await Aluno.findByIdAndDelete(req.params.id);
-    res.status(200).json({ message: "Aluno excluído com sucesso." });
+    res.status(200).json({ message: "Aluno excluído." });
   } catch (error) {
     next(error);
   }

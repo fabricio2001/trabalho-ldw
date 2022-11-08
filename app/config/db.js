@@ -7,10 +7,10 @@ const connectDatabase = async () => {
   }
 };
 mongoose.connection.on("disconnected", () => {
-  console.log("Desconectado do MongoDB.");
+  console.log("Desconectado do MongoDB .");
 });
 mongoose.connection.on("connected", () => {
-  console.log("Conectado ao MongoDB.");
+  console.log("Conectado ao MongoDB .");
 });
 mongoose.connection.on("error", (error) => {
   console.log(`Erro no MongoDB:\n${error}`);

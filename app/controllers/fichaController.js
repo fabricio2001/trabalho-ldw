@@ -24,7 +24,7 @@ export const updateFicha = async (req, res, next) => {
 export const deleteFicha = async (req, res, next) => {
   try {
     await Ficha.findByIdAndDelete(req.params.id);
-    res.status(200).json({ message: "Ficha excluído com sucesso." });
+    res.status(200).json({ message: "Ficha excluído." });
   } catch (error) {
     next(error);
   }

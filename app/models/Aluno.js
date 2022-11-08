@@ -15,7 +15,7 @@ const AlunoSchema = new Schema(
       type: String,
       required: true,
       trim: true,
-      enum: ["M", "F"],
+      enum: ["M", "F","O"],
     },
     email: {
       type: String,

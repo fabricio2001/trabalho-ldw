@@ -24,7 +24,7 @@ export const updateInstrutor = async (req, res, next) => {
 export const deleteInstrutor = async (req, res, next) => {
   try {
     await Instrutor.findByIdAndDelete(req.params.id);
-    res.status(200).json({ message: "Instrutor excluído com sucesso." });
+    res.status(200).json({ message: "Instrutor excluído." });
   } catch (error) {
     next(error);
   }

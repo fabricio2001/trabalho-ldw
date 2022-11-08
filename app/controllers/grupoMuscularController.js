@@ -24,7 +24,7 @@ export const updateGrupoMuscular = async (req, res, next) => {
 export const deleteGrupoMuscular = async (req, res, next) => {
   try {
     await GrupoMuscular.findByIdAndDelete(req.params.id);
-    res.status(200).json({ message: "GrupoMuscular excluído com sucesso." });
+    res.status(200).json({ message: "GrupoMuscular excluído." });
   } catch (error) {
     next(error);
   }
