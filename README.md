@@ -1,6 +1,7 @@
 ### Projeto para a Materia de Laboratorio de Desenvolvimento Web
 ### Alunos:
 **Fabrício Louzada Colodette**
+**Gabriel Barros de Almeida**
 
 
 ### Enunciado do Trabalho
